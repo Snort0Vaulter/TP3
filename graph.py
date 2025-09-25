@@ -1,4 +1,14 @@
 def ajouter_noeud(graphe, noeud):
+    """
+    ajouter_noeud 
+
+    Parameters : 
+    graphe : list
+    noeud : list
+
+    Returns : 
+    n/a
+    """
     if noeud not in graphe:
         graphe[noeud] = []
 
